@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "repository": "creator-ai-media-pipeline",
+  "reviewed_on": "2026-11-21",
+  "language": "en",
+  "policy": "Each source supports only the narrow claim_scope. Cross-project architecture, gates, thresholds, and selection guidance are author recommendations requiring local validation. URL reachability is transport evidence only.",
+  "sources": [
+    {
+      "name": "FFmpeg",
+      "url": "https://ffmpeg.org/ffmpeg-filters.html",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "filter and probing roles",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "speech-recognition role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "WhisperX",
+      "url": "https://github.com/m-bain/whisperX",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "alignment and diarization role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "PySceneDetect",
+      "url": "https://www.scenedetect.com/docs/latest/",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "scene-detection role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "automated timeline-edit role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "Remotion",
+      "url": "https://www.remotion.dev/docs/",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "programmatic composition role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "LosslessCut",
+      "url": "https://github.com/mifi/lossless-cut",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "lossless-oriented cutting role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "WebVTT",
+      "url": "https://www.w3.org/TR/webvtt1/",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "web caption format",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "C2PA",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.2/specs/C2PA_Specification.html",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "content-provenance structure",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "MediaInfo",
+      "url": "https://github.com/MediaArea/MediaInfo",
+      "type": "official project documentation, repository, or specification",
+      "authority": "named upstream project, standards body, publisher, or official documentation owner",
+      "version_or_date": "moving upstream unless the URL pins a version; reviewed 2026-11-21",
+      "claim_scope": "media inspection role",
+      "does_not_support": "This source alone does not validate the authored pipeline, interoperability, local performance, safety, legality, or fitness for a particular deployment."
+    },
+    {
+      "name": "US Copyright Office Digital Replicas Report",
+      "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf",
+      "type": "official government policy report",
+      "authority": "United States Copyright Office",
+      "version_or_date": "Part 1, July 2024; reviewed 2026-11-21",
+      "claim_scope": "policy analysis of unauthorized digital replicas involving voice and appearance",
+      "does_not_support": "This US policy report is not worldwide law, does not create permission, and does not determine rights for a specific production."
+    },
+    {
+      "name": "FTC Voice Cloning Challenge",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Voice-Cloning-Challenge.pdf",
+      "type": "official government consumer-protection notice",
+      "authority": "United States Federal Trade Commission",
+      "version_or_date": "November 16, 2023; reviewed 2026-11-21",
+      "claim_scope": "documented consumer harms and prevention focus for AI-enabled voice cloning",
+      "does_not_support": "This notice is not a production license, consent form, or complete statement of applicable law."
+    }
+  ]
+}

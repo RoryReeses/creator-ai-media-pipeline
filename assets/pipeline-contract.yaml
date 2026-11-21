@@ -1,0 +1,64 @@
+schema_version: "1.0"
+project_id: "<fill>"
+publication_authorized: false
+source:
+  path_or_id: "<fill>"
+  sha256: "<fill>"
+  rights_basis: "<fill>"
+  license_or_permission_record: "<fill>"
+  people_and_consent_record: "<fill>"
+  withdrawal_owner: "<fill>"
+  probe:
+    tool_version: "<fill>"
+    duration_seconds: null
+    frame_rate_mode: "<fill>"
+    frame_rate: "<fill>"
+    time_base: "<fill>"
+    audio_layout: "<fill>"
+delivery_contract:
+  aspect_ratio: "<fill>"
+  resolution: "<fill>"
+  frame_rate: "<fill>"
+  video_codec: "<fill>"
+  audio_loudness_target: "<fill>"
+  caption_format: "WebVTT"
+  editable_timeline_required: true
+stages:
+  - id: transcribe
+    input_sha256: "<fill>"
+    component_and_version: "<fill>"
+    config_sha256: "<fill>"
+    raw_output: "<fill>"
+    corrected_output: "<fill>"
+    human_reviewer: "<fill>"
+    acceptance: "NOT_RUN"
+  - id: align
+    component_and_version: "<fill>"
+    checkpoint_errors_ms: []
+    acceptance: "NOT_RUN"
+  - id: segment
+    component_and_version: "<fill>"
+    cues_used: []
+    candidates_file: "<fill>"
+    acceptance: "NOT_RUN"
+  - id: edit
+    decision_list: "<fill>"
+    approved_source_intervals: []
+    synthetic_elements: []
+    human_editor: "<fill>"
+    acceptance: "NOT_RUN"
+  - id: render
+    component_and_version: "<fill>"
+    command_or_project_sha256: "<fill>"
+    output_sha256: "<fill>"
+    av_sync_check: "NOT_RUN"
+    caption_validation: "NOT_RUN"
+    acceptance: "NOT_RUN"
+release:
+  attribution_record: "<fill>"
+  c2pa_or_other_provenance_record: "<fill>"
+  disclosure_text: "<fill>"
+  approver: "<fill>"
+  approved_at: null
+  publication_state: "LOCAL_REVIEW_ONLY"
+  correction_and_withdrawal_path: "<fill>"
