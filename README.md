@@ -1,5 +1,10 @@
 # Reversible AI Media Pipeline for Creators
 
+
+> **Decision:** Use this pipeline when media work needs rights checks, frozen inputs, human editorial decisions, reproducible rendering, and reversible release evidence; skip it for one-click clipping that cannot preserve custody or withdrawal paths.
+>
+> **For:** creators, media-tool maintainers, and editorial operations teams  ·  **Not for:** rights-unclear inputs or fully autonomous publishing workflows
+
 A useful media workflow is not “paste a link and trust the clip.” It is a custody chain: establish the right to process an input, freeze its technical identity, derive transcripts and scene candidates, let a human make editorial decisions, render without losing timing, and retain enough evidence to revise or withdraw the result.
 
 This guide helps creators and maintainers design that chain with open components. It publishes no benchmark winner and makes no claim that the projects below interoperate without adapters. The included [`pipeline-contract.yaml`](assets/pipeline-contract.yaml) is the main deliverable: it records the handoff and acceptance contract for every stage.
@@ -118,6 +123,14 @@ The ten source records in [`sources/sources.json`](sources/sources.json) support
 
 Re-run acceptance after changing source, model, alignment method, editor, fonts, renderer, hardware encoder, platform target, or rights status. Preserve old manifests and rendered checksums. Never overwrite a failed run with a successful rerun; link them so the correction remains visible.
 
+## Adjacent guides
+
+- [ai-research-reproducibility](https://github.com/Lindenberg668/ai-research-reproducibility) — Use it when a media-derived claim also needs immutable inputs, procedure, environment, and variance records.
+- [open-source-ai-code-provenance](https://github.com/ankr989/open-source-ai-code-provenance) — Use it when software artifacts in the pipeline need a narrower AI-assistance provenance envelope.
+- [self-hosted-notification-routing-index](https://github.com/brownrasr/self-hosted-notification-routing-index) — Use it when review, render, or withdrawal events must reach people through a controlled notification path.
+
 ## License
 
 Original guide and pipeline contract: CC BY 4.0. Linked projects and specifications retain their own terms.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
